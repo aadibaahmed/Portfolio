@@ -2,10 +2,10 @@ import React from "react";
 
 export const Projects = () =>{
     return(
-        <div style={{textAlign: 'center'}} className= "Projectsdec">   
+        <div style={{textAlign: 'center'}} className= "Projectsdec" id="Projects">   
             <h1>Projects</h1>
-            <p>I've done a few projects in my free time, they are on my GitHub. Here are the ones I have completed so far:
-            </p>
+                <p>I've done a few projects in my free time, they are on my GitHub. Here are the ones I have completed so far:
+                </p>
 
             <li>
                 <a href= "/Completed">Completed Projects</a>

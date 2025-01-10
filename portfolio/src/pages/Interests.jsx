@@ -2,7 +2,7 @@ import React from "react";
 
 const Interests = () =>{
     return(
-        <div className= "Interests">   
+        <div className= "Interests" id="Interests">   
             <h1 style={{textAlign: 'center'}}>Interests</h1>
                 <p>Other than programming, I love music, art, and gaming. Some instruments I can play are the violin, piano, and guitar.
                     Ever since I was young, I loved gaming and playing different genres of games. My favorite game is the Xenoblade Chronicles
