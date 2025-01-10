@@ -2,8 +2,8 @@ import React from "react";
 
 export const Projects = () =>{
     return(
-        <div>   
-            <h2>Projects</h2>
+        <div style={{textAlign: 'center'}} className= "Projectsdec">   
+            <h1>Projects</h1>
             <p>I've done a few projects in my free time, they are on my GitHub. Here are the ones I have completed so far:
             </p>
 

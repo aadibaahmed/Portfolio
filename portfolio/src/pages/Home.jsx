@@ -2,13 +2,12 @@ import React from 'react'
 
 const Home = () => {
     return (
-    <body >
+    <body > 
         <div className = "Introduction">
             <head>portfolio</head>
             <h1>My Portfolio</h1>
         </div>
         <div>
-            <h2 style={{textAlign: 'left', fontSize: 30}}>Introduction</h2>
                 <p className = "Introduction">Hello! My name is Ahmed Adiba, I am currently a junior majoring in Computer Science at University of Houston.
                     I was born in Bangladesh and moved to the U.S at the age of nine. Ever since I was young, I have been inspired
                     by technology and the impact it has on our daily lives. I am passionate about learning new technologies and how
