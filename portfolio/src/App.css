@@ -22,7 +22,7 @@
   font-weight: bold;
   padding: 2rem;
   text-align: left;
-  background-color: rgba(0, 0, 0, 0.397);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .navbar{
   max-width: flex;
@@ -39,26 +39,29 @@
 
 .Projectsdec{
   max-width: 700px;
+  margin-left: 30%;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
   font-weight: bold;
   padding: 2rem;
-  text-align: left;
-  background-color: rgba(0, 0, 0, 0.329);
+  background-color: rgba(0, 0, 0, 0.397);
 }
-.Projects{
-  max-width: flex;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: justify;
-  margin-left: 50%;
-}
-.Interests{
-  max-width: 700px;
+.Interestss{
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
   font-weight: bold;
   padding: 2rem;
-  text-align: left;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.397);
+}
+.project_box{
+  color: black;
+  max-width: fit-content;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 600px);
+  grid-template-rows: repeat(3, auto);
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  padding: 2rem;
+  gap: 8;
 }

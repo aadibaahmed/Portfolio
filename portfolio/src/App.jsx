@@ -3,8 +3,6 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Nav from './pages/Nav'
 import Interests from './pages/Interests'
-
-// import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -17,7 +15,7 @@ function App() {
       <div className='Projects'>
         <Projects />
       </div>
-      <div className='Home'>
+      <div className='Interests'>
         <Interests />
       </div>
     </div>
