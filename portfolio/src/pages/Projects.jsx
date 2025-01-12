@@ -1,11 +1,9 @@
 import React from "react";
-import {useState} from "react";
-
 
 const in_progress =[
-    {id: 1, name: '2D Pixel Game', description: 'Creating a small 2D game where characters go around an open world to complete tasks and discover new items. Learned to create 2D sprites and animations, while using GD script to code and interact with characters and items in the game.'},
-    {id: 2, name: 'Identify Copy Move Forgery', description: 'Given a dataset of copy-move forged images, attempting to create a code base to highlight the forged region correctly. Implemented a block division-based analysis to identify copied areas of an image.'},
-    {id: 2, name: 'Personal Portfolio', description: 'Given a dataset of copy-move forged images, attempting to create a code base to highlight the forged region correctly. Implemented a block division-based analysis to identify copied areas of an image.'}
+    {id: 1, name: '2D Pixel Game', description: 'Creating a small 2D game where characters go around an open world to complete tasks and discover new items. Learned to create 2D sprites and animations, while using GD script to code and interact with characters and items in the game.', link: "<a href='https://github.com/aadibaahmed/WinnieGame'>About</a>"},
+    {id: 2, name: 'Identify Copy Move Forgery', description: 'Given a dataset of copy-move forged images, attempting to create a code base to highlight the forged region correctly. Implemented a block division-based analysis to identify copied areas of an image.', link: 'https://github.com/aadibaahmed/CVR'},
+    {id: 2, name: 'Personal Portfolio', description: 'A portfolio using react', link: '/https://github.com/aadibaahmed/Portfolio'}
 ]
 const completed = [
     {id: 1, name: 'To-Do-List', description: 'Designed a To-Do list using ExpressJS and implemented a server/client configuration. Learned how to connect a database to add, remove, and store tasks according to the users choice.'},
@@ -27,6 +25,9 @@ const Projects = () =>{
                             <h2>{project.name}</h2>
                                 <p>
                                     {project.description}
+                                    <div lassName= "project_box">
+                                        <p>{project.link}</p>
+                                    </div>
                                 </p>
                             </div>
             
