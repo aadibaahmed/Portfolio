@@ -1,4 +1,6 @@
 import React from "react";
+import {useState} from "react";
+
 
 const in_progress =[
     {id: 1, name: '2D Pixel Game', description: 'Creating a small 2D game where characters go around an open world to complete tasks and discover new items. Learned to create 2D sprites and animations, while using GD script to code and interact with characters and items in the game.'},
