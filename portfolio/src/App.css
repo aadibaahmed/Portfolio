@@ -1,19 +1,11 @@
-#root {
-  max-width: 100%;
-  padding: 2rem;
-}
 .Home{
-  max-width: flex;
-  margin: 0 auto;
   padding: 2rem;
-  text-align:justify;
+  max-width: 100%;
 }
 .nav{
-  max-width: flex;
-  margin: 0 auto;
-  padding: 2rem;
+  padding: 3rem;
   text-align: right;
-  background-color: rgba(0, 0, 0, 0.233);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .Introduction{
   max-width: 700px;
@@ -22,7 +14,7 @@
   font-weight: bold;
   padding: 2rem;
   text-align: left;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.26);
 }
 .navbar{
   max-width: flex;
@@ -47,6 +39,8 @@
   background-color: rgba(0, 0, 0, 0.397);
 }
 .Interestss{
+  max-width: 700px;
+  margin-left: 30%;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
   font-weight: bold;
@@ -64,4 +58,17 @@
   font-weight: bold;
   padding: 2rem;
   gap: 8;
+}
+.Socials{
+  width: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  border: 50px;
+  border-color: aliceblue;
+}
+.image{
+  border-radius: 100px;
+  border-style: double;
+  border-color: black;
+  border-inline-width: 10px;
 }

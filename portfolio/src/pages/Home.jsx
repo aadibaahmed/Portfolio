@@ -1,9 +1,14 @@
 import React from 'react'
+import pooh from '../assets/pooh.jpg'
 
 const Home = () => {
     return (
-    <body > 
+    <body >             
+        <div>
+            <img src={pooh}  className = 'image' style={{width: '400px', height: '400px', float: "right", marginRight: '200px', padding: '2rem'}}/>
+        </div>
         <div className = "Introduction" id='Home'>
+            
             <head>portfolio</head>
             <h1>My Portfolio</h1>
         </div>
