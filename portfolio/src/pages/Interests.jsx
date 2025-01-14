@@ -1,12 +1,30 @@
 import React from "react";
+import violin from '../assets/orch.jpg'
+import piano from '../assets/piano.jpg'
+import guitar from '../assets/guitar.jpg'
+import game from '../assets/xen.jpg'
+import poo from '../assets/poopoo.jpg'
+import art from '../assets/art.jpg'
+
+
 
 const my_interests = [
-    {name: 'Piano'},
-    {name: 'Violin'},
-    {name: 'Guitar'},
-    {name: 'Art'},
-    {name: 'Games'},
-    {name: 'Winnie The Pooh'}
+    {name: 'Piano',
+    image: piano
+    },
+    {name: 'Violin',
+    image: violin
+    },
+    {name: 'Guitar',
+    image: guitar
+    },
+    {name: 'Art',
+    image: art},
+    
+    {name: 'Games',
+    image: game},
+    {name: 'Winnie The Pooh',
+    image: poo}
 ]
 const Interests = () =>{
     return(
@@ -24,6 +42,7 @@ const Interests = () =>{
                         {my_interests.map((project) => (
                             <div>
                             <h2>{project.name}</h2>
+                                <img className = 'image' src={project.image} style={{width: '200px', height: '200px', borderRadius: '8px'}}/>
                                 <br></br>
                             </div>
                         ))}

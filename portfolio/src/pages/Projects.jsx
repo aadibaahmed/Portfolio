@@ -3,7 +3,6 @@ import dungeon from '../assets/dungeon.jpg'
 import todo from '../assets/todo.png'
 import pooh from '../assets/pooh.jpg'
 import hanoi from '../assets/hanoi.jpg'
-import { MdRoundedCorner } from "react-icons/md";
 
 const in_progress =[
     {name: '2D Pixel Game', 
