@@ -72,3 +72,20 @@
   border-color: black;
   border-inline-width: 10px;
 }
+.button{
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border-color: rgb(0, 0, 0);
+}
+.Icons{
+  gap: 8;
+
+  align-content: right;
+  color: black;
+  border-radius: 20px;
+  border-color: rgb(0, 0, 0);
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import violin from '../assets/orch.jpg'
 import piano from '../assets/piano.jpg'
 import guitar from '../assets/guitar.jpg'
@@ -10,21 +10,29 @@ import art from '../assets/art.jpg'
 
 const my_interests = [
     {name: 'Piano',
-    image: piano
+    image: piano,
+    link: 'https://drive.google.com/file/d/1rbSprEfEw9BaqB-2PUuorgvkonOSMZ3k/view?usp=sharing'
     },
     {name: 'Violin',
-    image: violin
+    image: violin,
+    link: 'https://drive.google.com/file/d/1U2GppR4ydzar6wLevjND22bpGHjk-Mph/view?usp=sharing'
     },
     {name: 'Guitar',
-    image: guitar
+    image: guitar,
+    link: 'https://drive.google.com/file/d/14kC6qM--C-19_RnYZEKNZ5Yoys5x7Jg8/view?usp=sharing'
     },
     {name: 'Art',
-    image: art},
-    
+    image: art,
+    link: ''
+    },
     {name: 'Games',
-    image: game},
+    image: game,
+    link: ''
+    },
     {name: 'Winnie The Pooh',
-    image: poo}
+    image: poo,
+    link: ''
+    }
 ]
 const Interests = () =>{
     return(
@@ -43,6 +51,8 @@ const Interests = () =>{
                             <div>
                             <h2>{project.name}</h2>
                                 <img className = 'image' src={project.image} style={{width: '200px', height: '200px', borderRadius: '8px'}}/>
+                                <br></br>
+                                <a href={project.link} class="button">View</a>
                                 <br></br>
                             </div>
                         ))}
