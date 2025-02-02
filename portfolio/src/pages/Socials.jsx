@@ -5,7 +5,7 @@ import {FaMailBulk} from "react-icons/fa";
 
 const Socials = () => {
     return(
-        <div>
+        <div id="Socials">
             <h1 className = "Socials">Socials</h1>
                 <a href= "file:///C:/Users/adiba/Downloads/Ahmed_Adiba_Resume.pdf"> Resume </a>
                 <div className="Icons">

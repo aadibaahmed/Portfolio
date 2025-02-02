@@ -9,8 +9,8 @@ const Nav = () => {
                         <a className = "navbar" href= "">Home</a>
                         <a className = "navbar" href= "#Projects">Projects</a>
                         <a className = "navbar" href= "#Interests">Interests</a>
-                        <h2 className= "name">Ahmed Adiba</h2>
-
+                        <a className = "navbar" href= "#Interests">Interests</a>
+                        <a className = "navbar" href= "#Socials">Socials</a>
                     </div>
                 </div>
             </div>
