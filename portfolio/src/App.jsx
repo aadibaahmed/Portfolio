@@ -4,6 +4,7 @@ import Projects from './pages/Projects'
 import Nav from './pages/Nav'
 import Interests from './pages/Interests'
 import Socials from './pages/Socials'
+import Resume from './pages/Resume'
 
 import './App.css'
 
@@ -22,6 +23,9 @@ function App() {
       </div>
       <div className='Socials'>
         <Socials />
+        <div>
+          <Resume />
+        </div>
       </div>
     </div>
    
