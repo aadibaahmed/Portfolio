@@ -82,10 +82,10 @@
   border-color: rgb(0, 0, 0);
 }
 .Icons{
-  gap: 8;
-
-  align-content: right;
-  color: black;
+  gap: 20px;
+  justify-content: center;
+  display: flex;
+  color: white;
   border-radius: 20px;
   border-color: rgb(0, 0, 0);
 }

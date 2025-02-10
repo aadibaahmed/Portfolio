@@ -23,9 +23,6 @@ function App() {
       </div>
       <div className='Socials'>
         <Socials />
-        <div>
-          <Resume />
-        </div>
       </div>
     </div>
    

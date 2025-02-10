@@ -4,8 +4,8 @@ import pooh from '../assets/pooh.jpg'
 const Home = () => {
     return (
     <body >             
-        <div>
-            <img src={pooh}  className = 'image' style={{width: '400px', height: '400px', float: "right", marginRight: '200px', padding: '2rem'}}/>
+        <div style={{display: 'flex', justifyContent: 'flex-end'}}>
+            <img src={pooh}  className = 'image' style={{width: '400px', height: '400px', marginRight: '200px', padding: '2rem', position: 'absolute', right: '20px'}}/>
         </div>
         <div className = "Introduction" id='Home'>
             
