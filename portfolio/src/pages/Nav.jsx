@@ -9,7 +9,6 @@ const Nav = () => {
                         <a className = "navbar" href= "">Home</a>
                         <a className = "navbar" href= "#Projects">Projects</a>
                         <a className = "navbar" href= "#Interests">Interests</a>
-                        <a className = "navbar" href= "#Interests">Interests</a>
                         <a className = "navbar" href= "#Socials">Socials</a>
                     </div>
                 </div>
