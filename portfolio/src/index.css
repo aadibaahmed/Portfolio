@@ -2,6 +2,7 @@
   font-family: 'Times New Roman', Times, serif;  line-height: 2;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url(./Assets/xen3.jpg);
+  background-image: url(./Assets/xenblade.jpg);
   background-size: cover;
+  background-position:center center;
 }

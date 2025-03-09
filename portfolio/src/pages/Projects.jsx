@@ -1,26 +1,28 @@
 import React from "react";
 import dungeon from '../assets/dungeon.jpg'
 import todo from '../assets/todo.png'
-import pooh from '../assets/pooh.jpg'
 import hanoi from '../assets/hanoi.jpg'
+import characters from '../assets/characters.png'
+import copy from '../assets/copy_move.jpg'
+import portfolio_pic from '../assets/portfolio.png'
 
 const in_progress =[
     {name: '2D Pixel Game', 
     description: 'Creating a small 2D game where characters go around an open world to complete tasks and discover new items. Learned to create 2D sprites and animations, while using GD script to code and interact with characters and items in the game.',
     Tech: 'Godot Engine, Aseprite, GD Script', 
     link:'https://github.com/aadibaahmed/WinnieGame',
-    Image: pooh},
+    Image: characters},
     {name: 'Identify Copy Move Forgery', 
     Tech: 'Python, OpenCV',
     description: 'Given a dataset of copy-move forged images, attempting to create a code base to highlight the forged region correctly. Implemented a block division-based analysis to identify copied areas of an image.',
     link: 'https://github.com/aadibaahmed/CVR',
-    Image: pooh},
+    Image: copy},
 
     {name: 'Personal Portfolio', 
     description: 'A portfolio using react',
     Tech: 'React, HTML, CSS', 
     link: 'https://github.com/aadibaahmed/Portfolio',
-    Image: pooh}
+    Image: portfolio_pic}
 ]
 const completed = [
     {name: 'To-Do-List',
@@ -48,8 +50,8 @@ const Projects = () =>{
                     <div className="project_box" style={{textAlign: 'center'}}> 
                         {completed.map((project) => (
                             <div>
-                                <img className = 'image' src={project.Image} style={{width: '200px', height: '200px', borderRadius: '8px'}}/>   
-                                <h2>{project.name}</h2>
+                                <img className = 'image' src={project.Image} style={{width: '200px', height: '200px', borderRadius: '20px'}}/>   
+                                <h2 style={{backgroundColor: 'rgba(0, 0, 0, 0.397)', padding: '2rem'}}>{project.name}</h2>
 
                                     <h3>{project.Tech}</h3>
                                     <p>
@@ -69,7 +71,7 @@ const Projects = () =>{
                     {in_progress.map((project) => (
                         <div>
                             <img className = 'image' src={project.Image} style={{width: '200px', height: '200px', borderRadius: '8px'}}/>
-                            <h2>{project.name}</h2>
+                            <h2 style={{backgroundColor: 'rgba(0, 0, 0, 0.397)', padding: '2rem'}}>{project.name}</h2>
                             <h3>{project.Tech}</h3>
                             <p>
                                 {project.description}

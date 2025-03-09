@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .Home{
   padding: 2rem;
   max-width: 100%;
@@ -45,10 +48,10 @@
   font-size: large;
   font-weight: bold;
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.397);
+  ;
 }
 .project_box{
-  color: black;
+  color: white;
   max-width: fit-content;
   display: inline-grid;
   grid-template-columns: repeat(3, 600px);
@@ -67,25 +70,24 @@
   border-color: aliceblue;
 }
 .image{
-  border-radius: 100px;
+  border-radius: 200px;
   border-style: double;
-  border-color: black;
+  border-color: white;
   border-inline-width: 10px;
 }
-.button{
-  padding: 1px 6px;
-  border: 1px outset buttonborder;
-  border-radius: 3px;
-  color: black;
-  background-color: whitesmoke;
+.ref{
+  padding: 6px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(0, 21, 65, 0.856);
   border-radius: 20px;
-  border-color: rgb(0, 0, 0);
 }
 .Icons{
-  gap: 20px;
-  justify-content: center;
-  display: flex;
+  margin-top: 4rem;
+  padding: 2rem;
+  font-size: 50px;
   color: white;
   border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.644);
   border-color: rgb(0, 0, 0);
 }

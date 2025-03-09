@@ -52,7 +52,7 @@ const Interests = () =>{
                             <h2>{project.name}</h2>
                                 <img className = 'image' src={project.image} style={{width: '200px', height: '200px', borderRadius: '8px'}}/>
                                 <br></br>
-                                <a href={project.link} class="button">View</a>
+                                <a href={project.link} class="ref">View</a>
                                 <br></br>
                             </div>
                         ))}
