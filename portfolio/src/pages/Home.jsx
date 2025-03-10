@@ -5,7 +5,7 @@ const Home = () => {
     return (
     <body >             
         <div style={{display: 'flex', justifyContent: 'flex-end'}}>
-            <img src={pooh}  className = 'image' style={{width: '400px', height: '400px', marginRight: '200px', padding: '2rem', position: 'absolute', right: '20px'}}/>
+            <img src={pooh}  className = 'image' style={{width: '400px', height: '400px', right: '200px', top: '200px', padding: '2rem', position: 'absolute'}}/>
         </div>
         <div className = "Introduction" id='Home'>
             
