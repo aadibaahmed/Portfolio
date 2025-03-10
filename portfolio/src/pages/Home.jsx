@@ -1,5 +1,5 @@
 import React from 'react'
-import pooh from '../assets/pooh.jpg'
+import pooh from '../assets/mainpic.jpg'
 
 const Home = () => {
     return (
