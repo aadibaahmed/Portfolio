@@ -2,7 +2,7 @@
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Nav from './pages/Nav'
-import Interests from './pages/Interests'
+import Interests from './pages/Myint'
 import Socials from './pages/Socials'
 
 import './App.css'
